@@ -1,5 +1,6 @@
 /* Font Awesome Import */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 /* Body Styles */
 body{
@@ -54,23 +55,91 @@ button:hover{
 }
 
 
+/* Players Part Styles */
+
+.players{
+    margin-top: 70px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.player{
+    padding: 15px;
+    width: 330px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-image{
+    width: 330px;
+    height: 256px;
+}
+.player-image img{
+    height: 100%;
+    width: 100%;
+}
+.player-info{
+    margin-top: 16px;
+    width: 330px;
+}
+.player-info h3{
+    font-weight: bold;
+    margin-bottom: 0;
+    line-height: 40px;
+    font-size: 28px;
+}
+.player-info p{
+    color:#6C6C6C;
+    font-size: 16px;
+    line-height: 26px;
+}
 
 
-/* Responsive Codes */
+
+/* Responsive Codes / Media Queries */
 
 @media (max-width:688px) {
     .top-contents{
-        height: fit-content;
-        width: fit-content;
+        width: 360px;
+        height: 610px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 50px;
         background: #2D25A0;
-        padding: 45px 15px 65px;
-
+        padding: 45px 15px;
     }
     .top-heading{
+        font-size: 36px;
         margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 278px;
+        height: 138px;
+    }
+    .top-banner{
+        width: 330px;
+        height: 260px;
+    }
+    .top-banner img{
+        width: 330px;
+        height: 260px;
+    }
+
+
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 47px;
+        grid-row-gap: 24px;
+
+    }
+    .player{
+        width: 330px;
+        height: 474px;
     }
 }
 
