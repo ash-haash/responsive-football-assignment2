@@ -1,0 +1,72 @@
+/* Font Awesome Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* Body Styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 0px;
+}
+
+/* Heading Part Styles */
+/* .container{
+    width: 1440px;
+    height: 591px;
+    background-color: #2D25A0;
+    border: 1px solid black;
+   
+} */
+.top-contents{
+    display: flex;
+    justify-content: space-between;
+    padding: 67px 140px 86px 156px;
+    background-color: #2D25A0;
+}
+.top-heading {
+    color: white;
+    font-size: 64px;
+    margin-bottom: 27px;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+}
+button{
+    padding: 10px 24px;
+    border: none;
+    color: white;
+    background: #E02C6D;
+    font-style: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.02);
+}
+.top-banner{
+    width: 556.01px;
+    height: 438px;
+}
+.top-banner img{
+    width: 100%;
+}
+.top-banner img:hover{
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+@media (max-width:688px) {
+    .top-contents{
+        height: fit-content;
+        width: fit-content;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 50px;
+        background: #2D25A0;
+        padding: 45px 15px 65px;
+
+    }
+    .top-heading{
+        margin-top: 20px;
+    }
+}
+
+
