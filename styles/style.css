@@ -97,7 +97,38 @@ button:hover{
     line-height: 26px;
 }
 
+/* Footer Section Styles */
 
+.footer{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.footer-image{
+    width: 483.87px;
+    height: 110px;
+}
+.footer-image img{
+    width: 100%;
+}
+.f-icon{
+    color: #969BAB;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 14px;
+}
+
+/* .footer, .player-image{
+    align-items: center;
+    justify-content: center;
+}
+.footer p{
+    align-items: center;
+    justify-content: center;
+} */
 
 /* Responsive Codes / Media Queries */
 
@@ -141,6 +172,21 @@ button:hover{
         width: 330px;
         height: 474px;
     }
+
+
+    .footer{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-image{
+        width: 270px;
+        height: 70px;
+    }
+    .footer-image img{
+        width: 100%;
+    }
+
 }
-
-
