@@ -53,6 +53,11 @@ button:hover{
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
+
+
+
+/* Responsive Codes */
+
 @media (max-width:688px) {
     .top-contents{
         height: fit-content;
