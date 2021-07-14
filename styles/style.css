@@ -120,6 +120,9 @@ button:hover{
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 14px;
 }
+.f-icon a{
+    color: #969BAB;
+}
 
 /* .footer, .player-image{
     align-items: center;
